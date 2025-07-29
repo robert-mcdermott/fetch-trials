@@ -23,6 +23,7 @@ uv run python fetch_trials.py "search term" -o output.json --status STATUS
 - `search term`: The term to search for (e.g., "diabetes").
 - `-o output.json`: Optional output file (default: trials.json).
 - `--status STATUS`: Filter by overall status (e.g., --status RECRUITING). Can be used multiple times for multiple statuses. Allowed values: ACTIVE_NOT_RECRUITING, COMPLETED, etc.
+- `--country COUNTRY`: Filter by country of facilities (e.g., --country Sweden --country "United States"). Can be used multiple times.
 
 For help:
 
